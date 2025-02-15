@@ -1,10 +1,6 @@
 @extends('layout')
 
-
-
 @section('title', 'Admin Register')
-
-
 
 @section('content')
 

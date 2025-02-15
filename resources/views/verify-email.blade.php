@@ -1,5 +1,7 @@
 @extends('layout')
 
+@section('title', 'Verify Email')
+
 @section('content')
     <div class="alert alert-info">
         <strong>Verify Your Email</strong>

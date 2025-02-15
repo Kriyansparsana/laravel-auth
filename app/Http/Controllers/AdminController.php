@@ -55,7 +55,6 @@ class AdminController extends Controller
         ]);
 
         $user = User::where('email', $request->email)->first();
-        // dd($user);
 
         $credentials = $request->only('email', 'password');
 
@@ -70,7 +69,6 @@ class AdminController extends Controller
 
         return redirect()->back()->withInput()->with('error', 'Invalid email or password.');
 
-        // return redirect('/admin/dashboard');
     }
 
 }
